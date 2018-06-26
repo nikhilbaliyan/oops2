@@ -1,0 +1,48 @@
+class cop:
+	    def __init__(self,name,age,work,experience,designation):
+	        self.n=name
+	        self.a=age
+	        self.w=work
+	        self.e=experience
+	        self.d=designation
+
+	    def add(self):
+	        print("enter the data according to data name,age,work,experienceand designtion if you don't want to add  add " "")
+	        st=str(input("enter the data you want to add in name"))
+	        n1=self.name+st
+	        ag=int(input("enter the age you want to add"))
+	        a1=self.a+a1
+	        wr=int(input("enter the work experence you want to add"))
+	        w1=self.w+wr
+	        ex=int(input("enter the year you want to add in your experience"))
+	        e1=self.e+ex
+	        de=str(input("enter the designation you want to add"))
+        	d1=self.d+de
+ 	        print("the new  data after adding  name={},age={},work={},experience={},dsignation={}" .\
+	              format(n1,a1,w1,e1,d1))
+
+	    def display(self):
+	                 print("the new  data after adding  name={},age={},work={},experience={},dsignation={}". \
+	                       format(self.n, self.a, self.w, self.e, self.d))
+	    def update(self):
+	        print(111111111
+                "enter the data according to data name,age,work,experienceand designtion if you don't want to add  add " "")
+	        st = str(input("enter the data you want to updte in name"))
+	        self.n = st
+	        ag = int(input("enter the age "))
+	        self.a =a1
+	        wr = int(input("enter the work experence"))
+	        self.w= wr
+	        ex = int(input("enter the year you want to add in your experience"))
+	        self.e =ex
+	        de = str(input("enter the designation "))
+	        self.d= de
+	        print("the new  data after adding  name={},age={},work={},experience={},dsignation={}". \
+	              format(self.n,self.a,self.w,self.e,self.d))
+
+class mission(cop):
+	def add_mission_detail(self):
+	        pass
+	    s1=cop('abc',30,5,8,'lit')
+	    s2=mission('xyz',30,25,8,'maj')
+	    s2.add()
